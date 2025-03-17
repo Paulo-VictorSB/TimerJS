@@ -18,7 +18,7 @@ body {
     background-color: rgb(26, 26, 26);
 }
 
-.timerInputs{
+#timerInputs{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,4 +45,27 @@ input[type="number"]::-webkit-outer-spin-button{
 input[type="number"]:focus{
     border: none;
     outline: none;
+}
+
+#actions {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#actions > button {
+    background: transparent;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+#actions > button:hover {
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+    transition: .5s;
 }
